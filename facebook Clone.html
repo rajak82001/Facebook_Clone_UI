@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" type="x-icon" href="/HTML CODE/fb.jpg">
+</head>
+<style>
+    body{
+        background-color: rgb(233, 237, 237);
+    }
+    .box1{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 33%;
+        left: 10%;
+    }
+    .box2{
+        display:inline-block;
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 25%;
+        left: 57%;
+        font-size: 40px;
+        height: 400px;
+        width: 365px;
+        text-align: center;
+    }
+    .container{
+        /* display:inline; */
+        height: 800px;
+        /* border: 2px solid black; */
+    }
+
+    .login{
+        display: block;
+        background-color: white;
+        height: 394px;
+        width: 360px;
+        border: 2px solid rgba(10, 9, 9,0.2);
+        border-radius: 8px;
+        padding: 14px;
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        font-size: 54px;
+    }
+    .form-input{
+        display: block;
+    }
+    .text{
+        display: block;
+        text-align: center;
+    }
+    .heading{
+        display: block;
+        font-size: 100px;
+        font-weight: 60%;
+        color:blue;
+    }
+    .info{
+        display: block;
+        font-size: 44px;
+    }
+    .text input{
+        width: 320px;
+        height: 39px;
+        border-radius: 4px;
+        margin: 5px;;
+        border: 0.2px solid black;
+    }
+    .note{
+        font-size: 16px;
+        
+    }
+    .note a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    #btn2 input{
+        background-color: rgb(106, 106, 253);
+        color: white;
+        font-size: 25px;
+    }
+    .text label{
+        font-size: 15px;
+        /* color: white; */
+    }
+    #id3{
+        margin: 0px;
+
+    }
+    #btn1 input{
+        background-color: rgb(136, 224, 4);
+        width: 200px;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .text label a{
+        text-decoration: none;
+    }
+    hr{
+        padding:0px;
+        margin: 0px;
+    }
+    #btn1 input:hover{
+        background-color: rgb(109, 179, 4);
+        cursor: pointer;
+    }
+    #btn2 input:hover{
+        background-color: rgb(52, 52, 250);
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1">
+            <span class="heading">
+                facebook
+            </span>
+            <span class="info">
+                Facebook helps you connect and share <br>with the people in your life.
+            </span>
+        </div>
+        <div class="box2">
+            <span class="login">
+                <form action="noaction.php" class="form-input">
+                    <div class="text">
+                        <input type="text" id="input" placeholder="Email address or phone number">
+                    </div>
+                    <div class="text">
+                        <input type="password"  placeholder="Password">
+                    </div>
+                    <div class="text" id="btn2">
+                        <input type="submit" value="Log in">
+                    </div>
+                    <div class="text" id="id3">
+                        <label><a href="#">Forgotten password?</a></label>
+                    </div>
+                    <hr>
+                    <div class="text" id="btn1">
+                        <input type="submit" value="Create New Account">
+                    </div>
+
+                </form>
+            </span>
+            <span class="note">
+               <a href="#" target="_blank"> Create a Page </a> a celebrity, brand or business.
+            </span>
+
+        </div>
+    </div>
+    
+</body>
+</html>
